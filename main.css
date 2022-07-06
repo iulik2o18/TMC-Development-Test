@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2c7a88;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 20px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  width: 80px;
+}
+
+.topnav__extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.content__block {
+  padding: 20px;
+}
+
+.content__head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  color: #000000;
+}
+
+.content__head h2 {
+    font-family: "Lora", serif;
+}
+
+
+.content__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #878787;
+}
+
+.content__media {
+  padding: 20px;
+}
+
+.content__image {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 1px 7px 2px rgb(0 0 0 / 14%);
+}
+
+.content__video {
+  padding: 20px;
+}
+
+.content__player {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #2c7a88;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer__text {
+  font-family: "Interstate";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
