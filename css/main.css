@@ -11,7 +11,7 @@ li{
 
 .topnav {
   overflow: hidden;
-  background-color: #2c7a88;
+  background-color: white;
   position: relative;
   
 }
@@ -33,6 +33,7 @@ li{
   border-radius: 4px;
   color: white;
   border: 2px solid #2c7a88;
+  margin: 0 10px 0 10px;
 }
 
 .topnav a {
@@ -73,27 +74,36 @@ li{
   justify-content: space-evenly;
 }
 
+.content {
+  padding: 20px 15px 20px 15px;
+}
+
 .content__block {
   padding: 20px;
 }
 
 .content__head {
+  font-family: "Lora", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
+  padding: 10px 0 20px 0;
+  color: #000000;
+}
+
+.content__head--large {
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
   padding: 10px 0 10px 0;
   color: #000000;
 }
 
-.content__head h2 {
-  font-family: "Lora", serif;
-}
-
 .content__text {
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   color: #878787;
 }
@@ -106,6 +116,21 @@ li{
   width: 100%;
   height: auto;
   box-shadow: 0px 1px 7px 2px rgb(0 0 0 / 14%);
+}
+
+.content__button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100.23%;
+  background: #2c7a88;
+  border-radius: 4px;
+  color: white;
+  border: 2px solid #2c7a88;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 7rem;
 }
 
 .content__video {

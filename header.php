@@ -28,10 +28,10 @@
 					<a href="#">Menu Item</a>
 					<a href="#">Menu Item</a>
 					<div class="topnav__extra">
-						<a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
-						<a href="#"><i class="fa-solid fa-user fa-xl"></i></a>
-                        <a href="#" class="topnav__button">Get in touch</a>
+						<a href="#"><img src="media/search.svg" alt=""></a>
+						<a href="#"><img src="media/user.svg" alt=""></a>
 					</div>
+					<a href="#" class="topnav__button">Get in touch</a>
 				</div>
 				<a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
 					<i class="fa fa-bars fa-xl"></i>

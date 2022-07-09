@@ -14,7 +14,7 @@
     text-align: center;
     display: flex;
     padding: 0 1rem 0 0;
-    
+    align-items: center;
   }
 
   .topnav #myLinks .topnav__button {
@@ -27,6 +27,21 @@
     border-radius: 4px;
     color: white;
     border: 2px solid #2c7a88;
+  }
+
+  .content__button {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100.23%;
+    background: #2c7a88;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid #2c7a88;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 7rem;
   }
 
   .topnav a {
@@ -64,40 +79,54 @@
   .topnav__extra {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .content {
+    display: flex;
+    padding: 50px 25px 50px 25px;
+    align-items: flex-start;
   }
 
   .content__block {
     padding: 20px;
+    flex: 0 65%;
   }
 
   .content__head {
+    font-family: "Lora", serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 36px;
     padding: 10px 0 10px 0;
     color: #000000;
   }
 
-  .content__head h2 {
+  .content__head--large {
     font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px 0 10px 0;
+    color: #000000;
   }
 
+
+
   .content__text {
-    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     color: #878787;
   }
 
   .content__media {
-    padding: 20px;
+    padding:  0 20px 0 20px;
   }
 
   .content__image {
-    width: 100%;
+    width: 50%;
     height: auto;
     box-shadow: 0px 1px 7px 2px rgb(0 0 0 / 14%);
   }
@@ -107,7 +136,7 @@
   }
 
   .content__player {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 

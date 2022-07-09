@@ -1,145 +1,175 @@
 @media screen and (min-width: 90em) {
-    .topnav {
-      overflow: hidden;
-      background-color: white;
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      padding: 2rem 3rem 5rem 3rem;
-      align-items: center;
-    }
-  
-    .topnav #myLinks {
-      flex-direction: row;
-      text-align: center;
-      display: flex;
-      padding: 0 1rem 0 0;
-      
-    }
-  
-    .topnav #myLinks .topnav__button {
-      font-family: "Open Sans";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 100.23%;
-      background: #2c7a88;
-      border-radius: 4px;
-      color: white;
-      border: 2px solid #2c7a88;
-    }
-  
-    .topnav a {
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 16px;
-      display: block;
-      color: #878787;
-    }
-  
-    .topnav a.icon {
-      background: white;
-      color: black;
-      position: absolute;
-      right: 0;
-      top: 0;
-      padding-top: 20px;
-      display: none;
-    }
-  
-    .topnav a:hover {
-      background-color: white;
-      color: black;
-    }
-  
-    .active {
-      background-color: white;
-      color: black;
-    }
-  
-    .logo {
-      width: 8rem;
-    }
-  
-    .topnav__extra {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-  
-    .content__block {
-      padding: 20px;
-    }
-  
-    .content__head {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 35px;
-      padding: 10px 0 10px 0;
-      color: #000000;
-    }
-  
-    .content__head h2 {
-      font-family: "Lora", serif;
-    }
-  
-    .content__text {
-      font-family: "Open Sans";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      color: #878787;
-    }
-  
-    .content__media {
-      padding: 20px;
-    }
-  
-    .content__image {
-      width: 100%;
-      height: auto;
-      box-shadow: 0px 1px 7px 2px rgb(0 0 0 / 14%);
-    }
-  
-    .content__video {
-      padding: 20px;
-    }
-  
-    .content__player {
-      width: 100%;
-      height: auto;
-    }
-  
-    .footer {
-      background-color: #2c7a88;
-      padding: 10px;
-      text-align: center;
-    }
-  
-    .footer__text {
-      font-family: "Interstate";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 20px;
-      color: #ffffff;
-    }
-  
-    #scroll {
-      display: none;
-      position: fixed;
-      bottom: 50px;
-      right: 10px;
-      z-index: 99;
-      font-size: 18px;
-      border: none;
-      outline: none;
-      background-color: #2c7a88;
-      color: white;
-      cursor: pointer;
-      padding: 10px;
-      border-radius: 4px;
-    }
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem 5rem 3rem;
+    align-items: center;
   }
-  
+
+  .topnav #myLinks {
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    padding: 0 1rem 0 0;
+    align-items: center;
+  }
+
+  .topnav #myLinks .topnav__button {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100.23%;
+    background: #2c7a88;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid #2c7a88;
+  }
+
+  .content__button {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100.23%;
+    background: #2c7a88;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid #2c7a88;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 7rem;
+  }
+
+  .topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    color: #878787;
+  }
+
+  .topnav a.icon {
+    background: white;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    display: none;
+  }
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .active {
+    background-color: white;
+    color: black;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .topnav__extra {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .content {
+    display: flex;
+    padding: 4rem 6rem 4rem 6rem;
+    align-items: flex-start;
+  }
+
+  .content__block {
+    padding: 20px;
+    flex: 0 50%;
+  }
+
+  .content__head {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 10px 0 10px 0;
+    color: #000000;
+  }
+
+  .content__head--large {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px 0 10px 0;
+    color: #000000;
+  }
+
+  .content__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #878787;
+    text-align: left;
+  }
+
+  .content__media {
+    padding:  50px 20px 0 20px;
+    flex: 0 50%;
+  }
+
+  .content__image {
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 1px 7px 2px rgb(0 0 0 / 14%);
+  }
+
+  .content__video {
+    padding: 75px 20px 0 20px;
+    flex: 0 50%;
+  }
+
+  .content__player {
+    width: 50%;
+    height: auto;
+  }
+
+  .footer {
+    background-color: #2c7a88;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .footer__text {
+    font-family: "Interstate";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+
+  #scroll {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2c7a88;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+}
